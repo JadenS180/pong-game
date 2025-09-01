@@ -3,9 +3,6 @@
 A tiny browser game of Pong built with an HTML `<canvas>` and plain JavaScript.  
 Move your **mouse** to control the left paddle. The right paddle is CPU-controlled.
 
-**Live demo:** https://JadenS180.github.io/pong-game/  
-*(If it 404s, enable GitHub Pages → see “Deploy” section)*
-
 ---
 
 ## ✨ Features
@@ -59,6 +56,8 @@ xdg-open index.html
 # Windows (PowerShell)
 start index.html
 
+---
+
 ## 🌐 Deploy (GitHub Pages)
 Push the repo to GitHub (main branch).
 In the repo: Settings → Pages
@@ -67,6 +66,8 @@ Branch: main → / (root) → Save
 Wait ~1 minute, then visit:
 https://JadenS180.github.io/pong-game/
 
+---
+
 ## ⚙️ Customize
 Open script.js and tweak:
 Canvas size (in index.html):
@@ -74,6 +75,8 @@ Canvas size (in index.html):
 Paddles: paddleHeight, paddleWidth
 Ball: ballRadius, initial ballSpeedX, ballSpeedY
 AI difficulty: change rightPaddleSpeed (higher = harder)
+
+---
 
 ## 🧪 Troubleshooting
 Blank screen
@@ -86,13 +89,20 @@ Verify loop() is called once and contains requestAnimationFrame(loop).
 GitHub Pages 404
 Settings → Pages → set “Deploy from branch: main / root,” then wait ~1 minute.
 
+---
+
 ## 🗺️ Roadmap Ideas
 Keyboard controls (W/S or ↑/↓)
 Start/pause UI & scoreboard styling
 SFX for paddle/score events
 Difficulty levels and win conditions
 Touch controls for mobile
+
+---
 ## 🤝 Contributing
 PRs are welcome! Keep changes small and focused.
+
+---
+
 ## 📄 License
 MIT © 2025 Jaden Smiles
