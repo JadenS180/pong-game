@@ -43,17 +43,22 @@ pong-game/
 3. Right-click `index.html` → **Open with Live Server**
 
 **Option B — Python simple server**
-```bash
-# from the project root
-python3 -m http.server
-# then open http://localhost:8000 and click index.html
 
-** Option C — Just open the file
-# macOS
+from the project root:
+
+python3 -m http.server
+
+then open http://localhost:8000 and click index.html
+
+**Option C — Just open the file**
+
+macOS
 open index.html
-# Linux
+
+Linux:
 xdg-open index.html
-# Windows (PowerShell)
+
+Windows (PowerShell):
 start index.html
 
 ---
